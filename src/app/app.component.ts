@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { AdvantageType } from 'src/types/advantage.type';
+import { FormValuesType } from 'src/types/form-value.type';
 import { ProductType } from 'src/types/product.type';
 
 @Component({
@@ -7,7 +9,7 @@ import { ProductType } from 'src/types/product.type';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public advantages = [
+  public advantages: AdvantageType[] = [
     {
       image_size: ' width="20px" height="42px"',
       y: 'y="42.0619999999999px"',
@@ -38,7 +40,7 @@ export class AppComponent {
     },
   ]
 
-  public products = [
+  public products: ProductType[] = [
     {
       image: "macaroon1.png",
       title: "Макарун с малиной",
@@ -61,7 +63,7 @@ export class AppComponent {
     }
   ]
 
-  public formValues = {
+  public formValues: FormValuesType = {
     productTitle: '',
     name: '',
     phone: '',
@@ -78,7 +80,7 @@ export class AppComponent {
   }
 
   public showPresent: boolean = false;
-  public phone:string="375 (29) 368-98-68";
+  public phone: string = "375 (29) 368-98-68";
   public instagram: string = 'Мы в Instagram';
 
 }

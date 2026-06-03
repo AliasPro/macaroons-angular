@@ -6,27 +6,27 @@
 
 @font-face {
     font-family: Gilroy;
-    src: url(../assets/fonts/gilroy-regular.ttf);
+    src: url(assets/fonts/gilroy-regular.ttf);
 }
 
 @font-face {
     font-family: GilroyExtraBold;
-    src: url(../assets/fonts/gilroy-extrabold.ttf);
+    src: url(assets/fonts/gilroy-extrabold.ttf);
 }
 
 @font-face {
     font-family: GilroyBold;
-    src: url(../assets/fonts/gilroy-bold.ttf);
+    src: url(assets/fonts/gilroy-bold.ttf);
 }
 
 @font-face {
     font-family: GilroyMedium;
-    src: url(../assets/fonts/gilroy-medium.ttf);
+    src: url(assets/fonts/gilroy-medium.ttf);
 }
 
 @font-face {
     font-family: Tavolga;
-    src: url(../assets/fonts/tavolga_free.ttf);
+    src: url(assets/fonts/tavolga_free.ttf);
 }
 
 body {
